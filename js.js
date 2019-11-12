@@ -57,11 +57,5 @@ function getAllCoins(coins){
     }
     return html;
 }
-function getAllLanguages(langs){
-    let html = "";
-    for( var i = 0; i < langs.length; i++ ){
-        html += langs[i].nativeName + ", ";
-    }
-    return html;
-}
+
 
