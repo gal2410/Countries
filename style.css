@@ -1,0 +1,9 @@
+.cube{
+    border:1px solid #000;
+    padding:10px;
+    margin:5px;
+    box-shadow: 5px 10px;
+}
+.cube img{
+    max-width: 100%;
+}

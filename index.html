@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"  rel="stylesheet" type="text/css" />
+    <link href="style.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+        <div class="container">
+                <h1>Countries</h1>
+                <div class="row">
+                    <div class="col-md-12 ">
+                        <div class="form">
+                            <div class="row">
+                                <div class="col-md-4">
+                                        <span class="btn btn-success" id="search" ; > All </span>
+                                </div>
+                                <div class="col-md-4">
+                                        <input type="text" class="form-control" placeholder="Search..."  />
+                                </div>
+                                <div class="col-md-4">
+                                        <span class="btn btn-success" id="searchh" onclick="getCountries()"> search </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 mt-4">
+                        <div class="row"  id="countries">
+    
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="js.js"></script>
+</body>
+</html>
